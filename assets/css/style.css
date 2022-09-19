@@ -64,6 +64,7 @@ ul.work li:hover {
     background: #96c346;
     -webkit-transition: .3s;
     transition: .3s;
+	
 }
 
 ul.work li.active {
