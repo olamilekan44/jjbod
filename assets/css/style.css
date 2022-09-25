@@ -2044,7 +2044,15 @@ header.sidebar_menu .bottom_content {
 	border: 1px solid #fff;
 	border-radius: 100%;
 }
-
+.indicators_style4 li
+.carousel-item img {
+	position: relative;
+	z-index: -1;
+}
+.carousel-item img {
+	position: relative;
+	z-index: -1;
+}
 .zoom-in {
   animation: zoom-in 10s infinite;
 }
