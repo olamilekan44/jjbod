@@ -1731,6 +1731,7 @@ header.sidebar_menu .bottom_content {
 *===================================*/
 .full_screen,.full_screen .carousel-item {
 	min-height: 100vh;
+	background-color: #0073b8;
 }
 .banner_content_wrap .carousel-item {
 	padding: 100px 0;
@@ -1791,8 +1792,8 @@ header.sidebar_menu .bottom_content {
 	background-color: rgba(255,255,255,0.5);
 }
 .light_arrow2 .carousel-control-next, .light_arrow2 .carousel-control-prev {
-	background-color:#fff;
-	color: #000;
+	background-color:#fff;   
+	color: #000;  
 }
 .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
 	 opacity: 0;
@@ -1996,6 +1997,7 @@ header.sidebar_menu .bottom_content {
 }
 .slide_height_700 .carousel-item {
 	height: 700px;
+	background-color: green;
 }
 .indicators_style2 li {
 	border-radius: 0;
@@ -2042,15 +2044,7 @@ header.sidebar_menu .bottom_content {
 	border: 1px solid #fff;
 	border-radius: 100%;
 }
-.indicators_style4 li
-.carousel-item img {
-	position: relative;
-	z-index: -1;
-}
-.carousel-item img {
-	position: relative;
-	z-index: -1;
-}
+
 .zoom-in {
   animation: zoom-in 10s infinite;
 }
