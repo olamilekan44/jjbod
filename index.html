@@ -37,7 +37,7 @@ var sc_https=1;
 
 <body data-spy="scroll" data-target=".navbar-nav" data-offset="110">
 
-
+  <!-- F24VY -->
 
 <!-- START HEADER -->
 <header class="header_wrap fixed-top dark_skin hover_menu_style3 transparent-header" style="background-color: white; height: 16%; ">
@@ -46,7 +46,7 @@ var sc_https=1;
     	<a class="navbar-brand page-scroll" href="#home_section">
         	
         <div class="container">
-                     <img class="" src="./team-logo.png" alt="logo" width="15%"  />
+                     <img id="legal" src="./team-logo.png" alt="logo" width="15%"  />
  
         </div>
             <img class="logo_default" src="" alt="logo" />
@@ -129,7 +129,22 @@ var sc_https=1;
   
   </div>
 
+<style>
+  @media screen and (max-width: 400px) {
+.carousel-item img{
+width: 100%;
+}
 
+  };
+
+
+  @media (max-width:260px) and (min-width:800px) {
+    #legal {
+        display: none;
+    }
+}
+
+</style>
 
 
 
